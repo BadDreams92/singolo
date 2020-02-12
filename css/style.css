@@ -1,12 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 body {
   max-width: 1200px;
-  font-family: Lato;
+  margin: auto;
+  font-family: "Lato";
 }
-.nav-bar__logo {
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav_bar {
+  height: 95px;
+  background-color: #2d303a;
+}
+.nav_bar__main {
+  height: 89px;
+}
+.nav_bar__logo {
+  float: left;
+  margin: 35px 40px;
   font-weight: 700;
   font-size: 25px;
-  line-height: 6px;
-  font-family: "Lato";
   text-align: left;
   color: #ffffff;
+}
+span {
+  color: #f06c64;
+}
+.nav_bar__list {
+  float: right;
+  margin: 45px 40px 35px ;
+}
+.nav_bar__list-item {
+  display: inline-block;
+  margin: 0 15px;
+  list-style: outside;
 }
