@@ -1,0 +1,12 @@
+body {
+  max-width: 1200px;
+  font-family: Lato;
+}
+.nav-bar__logo {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 6px;
+  font-family: "Lato";
+  text-align: left;
+  color: #ffffff;
+}
