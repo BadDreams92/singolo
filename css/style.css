@@ -27,38 +27,31 @@ a:hover {
   color: #f06c64;
 }
 .nav_bar {
+  display: inline-flex;
+  width: 1020px;
   height: 95px;
-  background-color: #323746;
-}
-.nav_bar__main {
-  height: 89px;
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
 }
 .nav_bar__logo {
   float: left;
-  margin: 35px 40px;
+  margin: 30px 40px;
   font-weight: 700;
   font-size: 25px;
-  text-align: left;
   color: #ffffff;
 }
 span {
   color: #f06c64;
 }
 .nav_bar__list {
-  float: right;
-  width: 420px;
-  margin: 45px 40px 35px auto;
+  display: inline-flex;
+  align-items: center;
+  margin: 45px 35px 40px auto;
+  list-style: circle;
   line-height: 6px;
+  color: #ffffff;
 }
 .nav_bar__list-item {
-  display: inline;
-  margin: 0 auto;
-  margin: 0 15px;
-  list-style-type: disc;
+  margin-left: 30px;
   font-size: 12px;
-  text-align: left;
-}
-.nav_bar__bottom {
-  height: 6px;
-  background-color: #2d303a;
 }
