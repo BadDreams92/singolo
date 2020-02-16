@@ -15,9 +15,10 @@ h6 {
 }
 body {
   max-width: 1020px;
+  margin: auto;
+  font-family: "Lato Regular", sans-serif;
 }
 a {
-  list-style-type: disc;
   color: #ffffff;
   text-decoration: none;
 }
@@ -25,31 +26,70 @@ a:hover {
   color: #f06c64;
 }
 .nav_bar {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   width: 1020px;
   height: 95px;
-  font-family: "Raleway", sans-serif;
   background-color: #2d303a;
   border-bottom: 6px solid #323746;
 }
 .nav_bar__logo {
-  margin: 30px 40px;
-  font-weight: 600;
+  margin: 25px 35px;
+  font-weight: normal;
   font-size: 25px;
   color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -0.55px;
+  cursor: pointer;
 }
 span {
   color: #f06c64;
 }
 .nav_bar__list {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  margin: 50px 35px 40px auto;
+  margin: 43px 40px 40px auto;
+  list-style: none;
   color: #ffffff;
-  letter-spacing: 0;
+  letter-spacing: -0.55px;
 }
 .nav_bar__list-item {
   margin-left: 30px;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 12px;
 }
+.slider {
+  width: 1020px;
+  height: 600px;
+  background-color: #f06c64;
+  border-bottom: solid 6px #ea676b;
+}
+.slider__inner {
+  position: relative;
+}
+.slider__item {
+  display: flex;
+  justify-content: start;
+}
+.iphone__ver {
+  margin-top: 53px;
+  margin-left: 110px;
+}
+.iphone__hor {
+  margin-top: 173px;
+  margin-left: 73px;
+}
+.prev {
+  position: absolute;
+  top: 52%;
+  left: 40px;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 52%;
+  right: 40px;
+  cursor: pointer;
+}
+
